@@ -1,0 +1,23 @@
+name: myapp
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.1
+  image_picker: ^0.8.4+4
+  http: ^0.13.3
+  webview_flutter: ^2.0.10 # Pastikan versi terbaru atau yang sesuai
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
